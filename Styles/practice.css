@@ -40,3 +40,36 @@
   cursor: pointer;
   margin: 0px 230px 166px 0px;
 }
+#previous-failure {
+  width: 1072px;
+  margin: 131px 300px 0px 190px;
+}
+#previous-failure .failure-container{
+    display: flex;
+    gap: 30px;
+}
+#previous-failure .failure-image {
+  width: 569px;
+}
+#previous-failure .failure-content-container {
+    width: 600px;
+}
+.failure-content-container .failure-content{
+    margin: 239px 80px 84.3px 20px;
+    text-align: left;
+}
+.failure-content h2{
+    color: #151414;
+    font-size: 40px;
+    font-weight: bold;
+}
+.failure-content p{
+    margin-top: 20px;
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+.failure-content .block{
+    margin-top: 8px;
+}
